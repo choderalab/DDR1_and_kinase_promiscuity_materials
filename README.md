@@ -4,7 +4,9 @@ Code and data for the paper 'What makes a kinase promiscuous for inhibitors?'.
 This site hosts data, scripts, and figures for the following publication:
 
 **What makes a kinase promiscuous for inhibitors?**
+
 Sonya M. Hanson, George Georghiou, Manish K. Thakur, W. Todd Miller, Joshua S. Rest, John D. Chodera, Markus A. Seeliger
+
 DOI: 
 
 Complete Folding@home simulation data analyzed for this publication is available via the [Open Science Framework](https://osf.io/4r8x2/).
