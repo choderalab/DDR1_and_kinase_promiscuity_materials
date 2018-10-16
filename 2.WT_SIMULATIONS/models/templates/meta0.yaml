@@ -1,0 +1,43 @@
+init:
+  datestamp: 2015-08-14 23:26:54 UTC
+  ensembler_commit: 298953a34036ccb86f088d8116f23bc840aeaf76
+  ensembler_version: 1.0.3
+  init_path: /home/hansons/git/dansu-dansu/final-models
+  iteration: 0
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.10 |Anaconda 2.2.0 (64-bit)| (default, May 28 2015, 17:02:03) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.10
+gather_targets: null
+gather_templates:
+  datestamp: 2015-08-15 00:45:58 UTC
+  ensembler_commit: 298953a34036ccb86f088d8116f23bc840aeaf76
+  ensembler_version: 1.0.3
+  gather_from_pdb:
+    chainids: null
+    pdbids:
+    - 1IR3
+    - 1K3A
+    - 1Y57
+    - 2F4J
+    - 3DQW
+    - 4BKJ
+    - 3ZOS
+    - 2OIQ
+    - 1OPJ
+    - 2SRC
+    - 2G2I
+    - 2H8H
+    - 3U4W
+    - 4GT5
+    - 1LUF
+    - 1IRK
+    uniprot_domain_regex: null
+  iteration: 0
+  method: PDB
+  ntemplates: '24'
+  python_full_version: !!python/object/new:ensembler.core.literal_str
+  - "2.7.10 |Anaconda 2.2.0 (64-bit)| (default, May 28 2015, 17:02:03) \n[GCC 4.4.7
+    20120313 (Red Hat 4.4.7-1)]"
+  python_version: 2.7.10
+  structure_dirs: false

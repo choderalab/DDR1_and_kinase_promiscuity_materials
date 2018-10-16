@@ -1,0 +1,6 @@
+refinement:
+     ph: 8.0
+     custom_residue_variants:
+         DDR1_HUMAN_D0_PROTONATED:
+             # keyed by 0-based residue index
+             180: ASH
