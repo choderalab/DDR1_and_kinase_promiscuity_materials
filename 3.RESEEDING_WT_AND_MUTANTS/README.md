@@ -3,7 +3,7 @@
 Code used to run reseeded WT and mutant DDR1 simulations and generate parts of Figures 3 and S4 of the paper 'What makes a kinase promiscuous for inhibitors?'.  
 
 #### Data
-* Complete Folding@home simulation data analyzed for this publication is available via the [Open Science Framework](https://osf.io/).
+* Complete Folding@home simulation data analyzed for this publication is available via the [Open Science Framework](https://osf.io/4r8x2/).
 #### Python Simulation Setup Scripts
 * `models` - scripts used make DDR1 models and setup Folding@home simulations
  * This also includes the folder `multi_model_DDR1_Dasatinib` with scripts used to make the model of DDR1 bound to Dasatinib based on multiple templates.
