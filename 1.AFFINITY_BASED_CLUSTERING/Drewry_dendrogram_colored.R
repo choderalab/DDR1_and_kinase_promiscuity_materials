@@ -2,6 +2,10 @@ rawData <- t(read.csv("Drewry-data.csv"))
 kinaseDist <- dist(rawData)
 kinaseClust <- hclust(kinaseDist)
 
+library(ape)
+my_tree = as.phylo(kinaseClust)
+write.tree(my_tree,file='hclust.tre')
+
 inhData<- read.csv("data-Drewry-75inh.csv")
 pdf(file="Drewry-dendrogram-colors.pdf",width=40, height=10)
 hcd <-as.dendrogram(kinaseClust)

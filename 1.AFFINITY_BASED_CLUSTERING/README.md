@@ -15,7 +15,7 @@ Data and code used to generate Figures 1, S1, and S2 of the paper 'What makes a 
 * `Drewry_dendrogram_colored.R` makes `Drewry-dendrogram-colors.pdf` (Fig. S1B), a horizontal depiction of the resulting dendrogram colored by 75% inhibition (imported from a csv file made by `.ipynb` below)
 * `Drewry_dendrogram_colored-UPGMA.R` makes `Drewry-dendrogram-UPGMA-colors.pdf` (Fig. S1C), a horizontal depiction dendrogram resulting from clustering the same data with the 'average' instead of the 'complete' method colored by 75% inhibition (imported from a csv file made by `.ipynb` below)
 * `hclust-consensus-1000.R` makes `Drewry-consensus-three-colors.pdf` (Fig. S2A), a consensus tree of 1000 bootstrapped trees using the complete linkage method
-    * This script also produces all 1000 trees as `hclust-consensus-1000.tre` and the consensus tree as `outtree`
+    * This script also produces all 1000 trees as `hclust-consensus-1000.tre` and the consensus tree as calculated using the [consense](http://evolution.genetics.washington.edu/phylip/doc/consense.html) method as `outtree`
 #### iPython notebooks
 * `promiscuity_plots.ipynb` - ipython notebook used to produce Figure 1C  and the input for Figure 1D as well as Figures S2B and S2C
   * Produces `promiscuity_plot_rainbow_Inh90.eps` (Fig. 1C), `promiscuity_plot_rainbow_Inh90-Abl.png` (Fig. S2C), and `promiscuity_plot_Davis.png` (Fig. S2B)
