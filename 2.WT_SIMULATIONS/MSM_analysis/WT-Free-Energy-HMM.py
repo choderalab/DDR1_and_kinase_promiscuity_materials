@@ -9,14 +9,14 @@ import pyemma.coordinates as coor
 import pyemma.msm as msm
 import pyemma.plots as mplt
 
-Y = np.load('../MSM-analysis/WT-pro-2macro-27-commute-lag100-stride-working/tica_projection.npy')
+Y = np.load('tica_projection.npy')
 
 Y1 = [y[:,0] for y in Y]
 Y2 = [y[:,1] for y in Y]
 
-clkmeans_clustercenters = np.load('../MSM-analysis/WT-pro-2macro-27-commute-lag100-stride-working/clkmeans_clustercenters.npy')
+clkmeans_clustercenters = np.load('clkmeans_clustercenters.npy')
 
-clkmeans_dtrajs = np.load('../MSM-analysis/WT-pro-2macro-27-commute-lag100-stride-working/clkmeans_dtrajs.npy')
+clkmeans_dtrajs = np.load('clkmeans_dtrajs.npy')
 
 clkmeans_dtrajs = clkmeans_dtrajs.tolist()
 
