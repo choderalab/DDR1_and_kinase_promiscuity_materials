@@ -1,4 +1,4 @@
-# DDR1_and_kinase_promiscuity_materials
+# DDR1 and kinase promiscuity materials
 Code and data for the paper 'What makes a kinase promiscuous for inhibitors?'.
 
 This site hosts data, scripts, and figures for the following publication:
