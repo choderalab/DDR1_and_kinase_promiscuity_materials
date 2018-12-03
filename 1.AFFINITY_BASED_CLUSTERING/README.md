@@ -19,6 +19,6 @@ Data and code used to generate Figures 1, S1, and S2 of the paper 'What makes a 
 #### iPython notebooks
 * `promiscuity_plots.ipynb` - ipython notebook used to produce Figure 1C  and the input for Figure 1D as well as Figures S2B and S2C
   * Produces `promiscuity_plot_rainbow_Inh90.eps` (Fig. 1C), `promiscuity_plot_rainbow_Inh90-Abl.png` (Fig. S2C), and `promiscuity_plot_Davis.png` (Fig. S2B)
-  * The `.csv` files produced here are used in the R scripts above and as input for the kinmap tool at kinhub.org to generate Figure 1D.
+  * The `.csv` files produced here are used in the R scripts above and as input for the kinmap tool at [kinhub.org](http://kinhub.org/kinmap/index.html) to generate Figure 1D.
 * `Drewry_dendrogram.ipynb` - ipython notebook used to produce Figure S1A
   * Produces `SNS-heatmap.pdf` (Fig. S1A)
