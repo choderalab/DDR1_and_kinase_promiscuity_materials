@@ -13,7 +13,7 @@ import pyemma.plots as mplt
 print('loading trajectories')
 
 # load trajectories
-path_to_trajs = '../DDR1_WT_pro_plus_OG_trajectories/*.h5'
+path_to_trajs = './WT-sims/*.h5'
 from glob import glob
 filenames = sorted(glob(path_to_trajs))
 
